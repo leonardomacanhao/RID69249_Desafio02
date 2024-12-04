@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html,
+body {
+    font-size: 8px;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Manrope;
+}
+
+#header {
+    background-color: #02A28F;
+    padding: 1rem 9.75rem 1rem 9.75rem;
+    color: white;
+    font-size: 2.25rem;
+}

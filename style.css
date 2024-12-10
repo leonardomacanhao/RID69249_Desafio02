@@ -12,9 +12,103 @@ body {
     font-family: Manrope;
 }
 
-#header {
+.background-green {
+    background-color: #02A28F;
+    color: white;
+}
+
+.header {
     background-color: #02A28F;
     padding: 1rem 9.75rem 1rem 9.75rem;
-    color: white;
     font-size: 2.25rem;
+}
+
+.header>h1 {
+    padding-left: 5rem;
+}
+
+#top {
+    display: flex;
+}
+
+#container-opiniao>img {
+    padding: 7.5rem 2.75rem 1rem 9.75rem;
+    width: 130rem;
+    height: auto;
+}
+
+#posts-populares {
+    margin-top: 6rem;
+}
+
+.posts-title {
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.posts-title>h2 {
+    font-size: 20px;
+    padding: 3rem 32rem 3rem 1.5rem;
+}
+
+.side-card-formtat {
+    display: flex;
+    box-shadow: #02A28F;
+}
+
+#side-card {
+    padding: 3rem 0rem 0rem 0rem;
+
+}
+
+.posts-title {
+    margin-bottom: 20px;
+}
+
+.side-card-format {
+    display: flex;
+    /* Para alinhar os elementos horizontalmente */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    gap: 15px;
+    /* Espaço entre a imagem e o texto */
+    padding: 15px;
+    background-color: #ffffff;
+    /* Fundo branco */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra para sensação de elevação */
+    margin-bottom: 15px;
+}
+
+.side-card-format img {
+    width: 132px;
+    height: 70px;
+    top: 201px;
+    left: 937px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    object-fit: cover;
+}
+
+.side-card-format .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-card-format h2 {
+    font-size: 16px;
+    margin: 0;
+    color: #333333;
+}
+
+.side-card-format>h3 {
+    font-size: 12px;
+    color: #666666;
+    font-weight: 3000px;
 }
